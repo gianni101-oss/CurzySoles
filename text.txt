@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Curzy Soles | Vendor Access</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0e0e0e;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: #cccccc;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .vendors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .vendor-card {
+      background: #161616;
+      padding: 30px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .vendor-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .vendor-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .vendor-card p {
+      font-size: 0.95rem;
+      color: #bbbbbb;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .buy-btn:hover {
+      background: #dddddd;
+    }
+
+    .how-it-works {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      color: #cccccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #000000;
+      color: #777777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Curzy Soles</h1>
+  <p>Premium Vendor Access • Buy Direct • Digital Delivery</p>
+</header>
+
+<section>
+  <h2 class="section-title">Vendor Lists</h2>
+
+  <div class="vendors">
+
+    <div class="vendor-card">
+      <h3>Sneaker Vendor List</h3>
+      <p>Trusted sneaker vendors with fast shipping and quality products.</p>
+      <div class="price">$25</div>
+      <a href="#" class="buy-btn">Buy Access</a>
+    </div>
+
+    <div class="vendor-card">
+      <h3>Clothing Vendor List</h3>
+      <p>Streetwear and designer clothing suppliers.</p>
+      <div class="price">$20</div>
+      <a href="#" class="buy-btn">Buy Access</a>
+    </div>
+
+    <div class="vendor-card">
+      <h3>Luxury Vendor List</h3>
+      <p>High-end bags, shoes, and accessories vendors.</p>
+      <div class="price">$40</div>
+      <a href="#" class="buy-btn">Buy Access</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">How It Works</h2>
+  <div class="how-it-works">
+    <p>
+      Purchase access to a vendor list using your preferred payment method.
+      After checkout, you’ll receive the vendor links so you can buy directly
+      from the supplier. All lists are digital and delivered instantly.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Curzy Soles. All rights reserved.
+</footer>
+
+</body>
+</html>
